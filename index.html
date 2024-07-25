@@ -48,18 +48,23 @@
                                         <div class="col">
 
                                             <div class="card ">
+                                                <!-- Header -->
                                                 <div class="card-header text-left">
                                                     <h4>Payment form example</h4>
                                                 </div>
+                                                <!-- Body Form -->
                                                 <div class="card-body">
+                                                    <!-- Alert -->
                                                     <div class="alert alert-danger text-left" role="alert">
                                                         Some Fields are Missing
                                                     </div>
 
 
-                                                    // Example form
+                                                    <!-- Form -->
                                                     <form>
                                                         <div class="form-row  justify-content-between">
+
+                                                            <!-- Credit Card, CVC, Amount -->
 
                                                             <div class="form-group col-md-6">
                                                                 <label for="inputCC">Credit Card:</label>
@@ -78,7 +83,7 @@
                                                                     id="inputAmount" placeholder="0.00">
                                                             </div>
 
-
+                                                            <!-- First Name, Last Name -->
                                                             <div class="form-group col-md-6">
                                                                 <label for="inputFirstName">First Name</label>
                                                                 <input type="text" class="form-control" id="inputEmail4"
@@ -93,6 +98,25 @@
                                                             </div>
                                                         </div>
 
+                                                        <!-- City, State, Postal Code -->
+
+                                                        <div class="form-row">
+                                                            <div class="form-group col-md-6">
+                                                                <label for="inputCity">City</label>
+                                                                <input type="text" class="form-control" id="inputCity">
+                                                            </div>
+                                                            <div class="form-group col-md-3">
+                                                                <label for="inputState">State</label>
+                                                                <select id="inputState" class="form-control">
+                                                                    <option selected>Choose...</option>
+                                                                    <option>...</option>
+                                                                </select>
+                                                            </div>
+                                                            <div class="form-group col-md-3">
+                                                                <label for="inputZip">Postal Code</label>
+                                                                <input type="text" class="form-control" id="inputZip">
+                                                            </div>
+                                                        </div>
 
                                                     </form>
                                                 </div>
